@@ -1,0 +1,6 @@
+c:\users\narms\documents\visual studio 2015\Projects\understandingOO\understandingOO\bin\Debug\understandingOO.exe.config
+c:\users\narms\documents\visual studio 2015\Projects\understandingOO\understandingOO\bin\Debug\understandingOO.exe
+c:\users\narms\documents\visual studio 2015\Projects\understandingOO\understandingOO\bin\Debug\understandingOO.pdb
+c:\users\narms\documents\visual studio 2015\Projects\understandingOO\understandingOO\obj\Debug\understandingOO.csprojResolveAssemblyReference.cache
+c:\users\narms\documents\visual studio 2015\Projects\understandingOO\understandingOO\obj\Debug\understandingOO.exe
+c:\users\narms\documents\visual studio 2015\Projects\understandingOO\understandingOO\obj\Debug\understandingOO.pdb
