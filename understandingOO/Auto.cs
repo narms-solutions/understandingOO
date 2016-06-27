@@ -18,7 +18,21 @@ namespace understandingOO
         public string Maker
         {
             get { return make ; }
-            set { make = value; }
+            set
+            {
+                switch (value)
+                {
+                    case "OldsMobile":
+                        make = value;
+                        break;
+                    case "BMW":
+                        make = value;
+                        break;
+                    default:
+                        make = "invalid maker";
+                }
+              
+            }
         }
 
         public int Accelerator(int incrementedSpeed)

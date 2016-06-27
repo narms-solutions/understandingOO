@@ -18,7 +18,7 @@ namespace understandingOO
             myCar.Maker = "oldsMobile";
             myCar.Miles = 50000;
             myCar.Color = "Silver";
-            Console.WriteLine(myCar.Color  + "  "  + myCar.Model);
+            Console.WriteLine(myCar.Maker  + "  "  + myCar.Model);
 
             int myCurrentSpeeed = 0;
             myCurrentSpeeed= myCar.Accelerator(3);
