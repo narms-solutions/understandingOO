@@ -10,9 +10,12 @@ namespace understandingOO
     {
         static void Main(string[] args)
         {
+            DateTime rightNow = DateTime.Now();
+            Console.WriteLine(rightNow);
+            Console.ReadLine();
 
             Auto myCar = new Auto();
-            myCar.Speed = 0;
+            myCar.CurrentSpeed = 0;
             myCar.Model = "SwiftDezire";
             myCar.Year = 2009;
             myCar.Maker = "oldsMobile";

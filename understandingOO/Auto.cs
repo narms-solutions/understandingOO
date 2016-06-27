@@ -8,7 +8,7 @@ namespace understandingOO
 {
     class Auto
     {
-        public int Speed;
+        private int speed;
         public int Year;
         public int Miles;
         private string make;
@@ -34,24 +34,37 @@ namespace understandingOO
               
             }
         }
+        public int CurrentSpeed
+        {
+            get { return speed; }
+            set
+            {
+                if (value < 0)
+                    speed = 0;
+                else if (value > 10)
+                    speed = 10;
+                else
+                    speed = value;
+            }
+        }
 
         public int Accelerator(int incrementedSpeed)
         {
-            Speed +=incrementedSpeed;
+            CurrentSpeed +=incrementedSpeed;
             //Console.WriteLine("the current speed:" + speed);
-            return Speed;
+            return CurrentSpeed;
 
         }
         public int Decelerator(int decrementedSpeed)
         {
-            Speed -=decrementedSpeed;
+            CurrentSpeed -=decrementedSpeed;
             //Console.WriteLine("The current speed:" +speed);
-            return Speed;
+            return CurrentSpeed;
         }
         public string speedLimitViolation(int speedLimit,string initialMessage)
         {
             string message = "";
-            if (Speed > speedLimit)
+            if (CurrentSpeed > speedLimit)
                // initialMessage = "warning!";
                 message = initialMessage+ "Too Fast!";
             else
